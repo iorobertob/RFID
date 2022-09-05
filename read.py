@@ -5,7 +5,7 @@ from mfrc522 import SimpleMFRC522
 
 reader = SimpleMFRC522()
 
-while true:
+while True:
         try:
                 id, text = reader.read()
                 print(id)
