@@ -14,10 +14,14 @@ RST connects to Pin 22.
 
 
 Configure SPI interface:
+
 `sudo raspi-config`
 
 
 Install dependencies:
+
 `sudo apt install python3-dev python3-pip`
+
 `sudo pip3 install spidev`
+
 `sudo pip3 install mfrc522`
